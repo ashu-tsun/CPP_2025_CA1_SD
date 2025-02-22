@@ -1,0 +1,40 @@
+1,1,Bulbasaur,GRASS,45,49,49,0.7,6.9,Kanto,Overgrow
+4,1,Charmander,FIRE,39,52,43,0.6,8.5,Kanto,Blaze
+7,1,Squirtle,WATER,44,48,65,0.5,9,Kanto,Torrent
+10,1,Caterpie,BUG,45,30,35,0.3,2.5,Kanto,Shield Dust
+25,1,Pikachu,ELECTRIC,35,55,40,0.4,6,Kanto,Static
+50,1,Diglett,GROUND,10,55,25,0.2,0.8,Kanto,Sand Veil
+51,1,Dugtrio,GROUND,35,100,50,0.5,12,Kanto,Sand Veil
+52,1,Meowth,NORMAL,40,45,35,0.3,4.2,Kanto,Pickup
+54,1,Psyduck,WATER,50,52,48,0.5,7,Kanto,Damp
+56,1,Mankey,FIGHTING,40,80,35,0.5,28,Kanto,Vital Spirit
+92,1,Gastly,GHOST,30,35,30,1.3,0.1,Kanto,Levitate
+94,1,Gengar,GHOST,60,65,60,1.5,40.5,Kanto,Cursed Body
+132,1,Ditto,NORMAL,48,48,48,0.3,4,Kanto,Limber
+133,1,Eevee,NORMAL,55,55,50,0.3,6.5,Kanto,Run Away
+134,1,Vaporeon,WATER,130,65,60,1,29,Kanto,Water Absorb
+135,1,Jolteon,ELECTRIC,65,65,60,0.7,24,Kanto,Volt Absorb
+136,1,Flareon,FIRE,65,130,60,1,25,Kanto,Flash Fire
+143,1,Snorlax,NORMAL,160,110,65,1.2,460,Kanto,Immunity
+150,1,Mewtwo,PSYCHIC,106,110,90,2,122,Kanto,Pressure
+172,1,Pichu,ELECTRIC,20,40,15,0.2,2,Johto,Static
+196,2,Espeon,PSYCHIC,65,65,60,0.9,26.5,Johto,Synchronize
+197,2,Umbreon,DARK,95,65,110,0.9,27,Johto,Synchronize
+215,2,Sneasel,DARK,55,95,55,0.5,20,Johto,Inner Focus
+231,2,Phanpy,GROUND,90,60,60,0.6,33.5,Johto,Pickup
+470,2,Leafeon,GRASS,65,110,130,0.9,25.5,Johto,Leafguard
+258,3,Mudkip,WATER,50,70,50,0.6,7.6,Hoenn,Torrent
+661,6,Fletchling,NORMAL,45,50,43,0.3,3.7,Kalos,Big Pecks
+674,6,Pancham,FIGHTING,67,82,62,0.5,8,Kalos,Iron Fist
+700,7,Sylveon,FAIRY,95,65,65,1,23.5,Alola,Cute Charm
+778,7,Mimikyu,GHOST,55,90,80,0.6,8,Alola,Disguise
+819,8,Skwovet,NORMAL,70,55,55,0.3,6,Galar,Cheek Pouch
+821,8,Rookidee,FLYING,38,47,35,0.3,2.5,Galar,Keen Eye
+848,8,Toxel,ELECTRIC,40,38,35,0.3,5,Galar,Rattled
+906,9,Sprigatito,GRASS,40,61,54,0.4,5,Paldea,Overgrow
+909,9,Fuecoco,FIRE,67,45,59,0.5,9,Paldea,Blaze
+917,9,Tarountula,BUG,35,41,45,0.4,5.5,Paldea,Insomnia
+921,9,Pawmi,ELECTRIC,45,50,20,0.3,3,Paldea,Static
+943,9,Mabosstiff,DARK,80,120,90,1,55,Paldea,Intimidate
+973,9,Flamigo,FLYING,82,115,74,1,18,Paldea,Srappy
+985,9,Scream Tail,FAIRY,115,65,99,1.1,16,Paldea,Protosynthesis
