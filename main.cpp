@@ -5,6 +5,7 @@
 #include <iomanip>
 #include <vector>
 #include <algorithm>
+#include <map>
 using namespace std;
 
 //Makes a struct for Characters with their details
@@ -39,6 +40,19 @@ void displayCharacter(const Character &c) {
 }
 
 void displayAllCharacters(const vector<Character> &c) {
+    cout << left //Print out for data headings
+    << setw(4) << "ID"
+    << setw(25) << "Name"
+    << setw(10) << "HP"
+    << setw(10) << "Attack"
+    << setw(10) << "Defense"
+    << setw(10) << "XP"
+    << setw(10) << "Gold"
+    << setw(10) << "Height"
+    << setw(15) << "Location"
+    << setw(5) << "Aggressive"
+    <<endl;
+
     //Display the characters
     for (const Character &chara : c) {
         displayCharacter(chara);
@@ -46,14 +60,67 @@ void displayAllCharacters(const vector<Character> &c) {
 }
 
 int searchByName(const vector <Character> &c, const string &name) {
-    int i = 0; //Count for index
-    for (const Character &chara : c) { //Loop through character vector
-        if ( chara.name == name) { //if the name matches the input
+    for (int i = 0; i<c.size();i++) { //Loop through character vector
+        if ( c[i].name == name) { //if the name matches the input
             return i; //return the index
         }
-        i++; //if not keep counting index
     }
     return -1; //If name not found then return -1
+}
+
+//I had a look at : https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
+// and https://www.w3schools.com/cpp/cpp_maps.asp
+//To help understand the logic for adding a printing results
+map<string, int> countByLocation(const vector<Character> &c, const string &location) {
+    map<string, int> locationMap;
+    for (const Character &chara : c) {
+        if (chara.location == location) {
+            locationMap[chara.location]++;
+        }
+
+    }
+    return locationMap;
+}
+
+void displayLocationMap(map<string, int> locationMap) {
+    bool notEmpty = false;
+    for (auto count : locationMap) {
+        cout << count.first << " " << count.second << endl;
+        notEmpty = true;
+    }
+    if (!notEmpty) {
+        cout << "Sorry, there was no data with that location" << endl;
+    }
+}
+
+void displayAggressiveSubset(const vector<Character> &c, const string &aggresive) {
+    cout << "Characters are aggressive: " << aggresive << endl;
+    //Print the headers if the subset will work
+    if (aggresive == "Yes" || aggresive == "No") {
+        cout << left //Print out for data headings
+        << setw(4) << "ID"
+        << setw(25) << "Name"
+        << setw(10) << "HP"
+        << setw(10) << "Attack"
+        << setw(10) << "Defense"
+        << setw(10) << "XP"
+        << setw(10) << "Gold"
+        << setw(10) << "Height"
+        << setw(15) << "Location"
+        << setw(5) << "Aggressive"
+        <<endl;
+    }
+
+    bool notEmpty = false;
+    for (const Character &chara : c) {
+        if (chara.aggressive == aggresive) {
+            displayCharacter(chara);
+            notEmpty = true;
+        }
+    }
+    if (!notEmpty) {
+        cout << "Sorry, there was no data with that aggression type" << endl;
+    }
 }
 
 //Method to read the lines
@@ -119,27 +186,21 @@ void load(string fname, vector<Character> &data)
 
 int main() {
     vector<Character> c;
-    string fname = "C:/Users/sophi/CLionProjects/CPP_2025_CA1_SD/undertale.csv";
-    cout << left //Print out for data headings
-    << setw(4) << "ID"
-    << setw(25) << "Name"
-    << setw(10) << "HP"
-    << setw(10) << "Attack"
-    << setw(10) << "Defense"
-    << setw(10) << "XP"
-    << setw(10) << "Gold"
-    << setw(10) << "Height"
-    << setw(15) << "Location"
-    << setw(5) << "Aggressive"
-    <<endl;
+    string fname = "undertale.csv";
 
+
+
+    //Stage 2
     //Load the data from csv into a vector of structs (Character)
     load(fname, c);
+
+    //Stage 3 part 1
     //Display all characters using method
     displayAllCharacters(c);
 
+    //Stage 3 part 2
     string name;
-    cout << "Enter Character Name to search: (e.g Gaster, Sans, Temmie)\n";
+    cout << "Enter Character Name to search: (e.g Gaster, Papyrus, Temmie)\n";
     //Read in input and assign it to name
     cin >> name;
     //Use the name to search
@@ -149,6 +210,19 @@ int main() {
         cout << "Character not found" << endl;
     else
         cout << "\nIndex of " << name <<" is " << index << endl;
+
+    //Stage 3 part 3
+    string location;
+    cout << "\nEnter Character Location to search: (e.g Hotland, Ruins, Snowdin)\n";
+    cin >> location;
+    displayLocationMap(countByLocation(c, location));
+
+    //Stage 3 part 4
+    string aggressive;
+    cout << "\nEnter the Aggressive subset you are looking for (e.g Yes, No\n";
+    cin >> aggressive;
+    displayAggressiveSubset(c, aggressive);
+
 
     return 0;
 }
