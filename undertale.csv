@@ -1,100 +1,100 @@
-1,Aaron,98,7,2,52,25,2.28,Waterfall,Yes
-2,Agent,98,7,2,52,20,1.8,Hotland,Yes
-3,Alphys,0,0,0,0,0,1.65,True Lab,Yes
-4,Amalgamate,100,9,9999,0,0,2,True Lab,Yes
-5,Amalgamate,100,9,999,0,0,2,True Lab,Yes
-6,Amalgamate,400,0,0,0,0,1.8,True Lab,Yes
-7,Amalgamate,100,9,999,0,0,2,True Lab,Yes
-8,Annoying dog,0,0,0,0,0,1,Ruins,No
-9,Asgore,3500,10,-30,0,0,2.86,New Home,Yes
-10,Asriel,9999,8,9999,0,0,1.48,New Home,No
-11,Asriel Dreemurr,9999,9999,9999,0,0,2.92,New Home,Yes
-12,Astigmatism,120,8,-2,130,85,1.7,Ruins,Yes
-13,Astigmatism,50,7,2,8,6,1.7,Ruins,Yes
-14,Bomb,99,1,0,0,0,1.6,Hotland,Yes
-15,BurgerPants,0,0,0,0,0,2.39,Hotland,No
-16,Chara,9999,9999,9999,0,0,1.8,Surface,Yes
-17,Chilldrake,74,6,2,22,18,2.22,Surface,No
-18,Dogamy,108,6,4,30,25,2.28,Snowdin,Yes
-19,Dogaressa,108,6,4,30,25,2.28,Snowdin,Yes
-20,Doggo,70,6,1,30,20,1.7,Snowdin,Yes
-21,Dogi,108,14,5,60,40,1.85,Snowdin,Yes
-22,Doodlebog,100,8,999,0,0,2,Hotland,Yes
-23,Dress Lion,0,0,0,0,0,2.36,Hotland,No
-24,Dummy,15,0,-5,0,0,1.5,Ruins,No
-25,Endogeny,0,0,0,0,0,1.7,True Lab,Yes
-26,Final Froggit,100,8,0,120,80,2.2,Ruins,Yes
-27,Final Froggit,32,7,2,4,2,1.75,Ruins,Yes
-28,Flowey,0,0,0,0,0,1.1,N/A,Yes
-29,Frisk,0,0,0,0,0,1.53,Surface,No
-30,Froggit,20,4,1,10,20,1.05,Ruins,No
-31,Froggit,30,4,4,3,2,1.05,Ruins,No
-32,Gaster,666666,66666,66666,-6666,-6666,2.53,N/A,No
-33,Glad Dummy,5,0,-5,200,100,1.47,Waterfall,No
-34,Glyde,220,9,-20,100,140,2.2,Snowdin,No
-35,Greater Dog,105,6,4,80,60,2.86,Snowdin,No
-36,Grillby,0,0,0,0,0,2.64,Snowdin,No
-37,Gyftrot,114,7,3,35,30,2.17,Snowdin,Yes
-38,Ice,48,0,-100,25,40,1.86,Snowdin,Yes
-39,Ice Cap,48,6,0,17,17,1.86,Snowdin,Yes
-40,Jerry,80,1,8,1,55,1.5,Snowdin,No
-41,Knight Knight,230,8,2,180,150,2.1,Hotland,Yes
-42,Lemon Bread,100,8,9999,0,0,1.8,Hotland,Yes
-43,Lesser Dog,60,6,0,18,15,1.92,Snowdin,Yes
-44,Loox,50,5,4,7,5,1.6,Ruins,Yes
-45,Lost Soul 1,999,7,999,0,0,1.75,True Lab,No
-46,Lost Soul 2,999,7,999,0,0,1.75,True Lab,No
-47,Lost Soul 3,999,7,999,0,0,1.75,True Lab,No
-48,Lost Soul 4,999,7,999,0,0,1.75,True Lab,No
-49,Lost Soul 5,999,7,999,0,0,1.75,True Lab,No
-50,Lost Soul 6,999,7,999,0,0,1.75,True Lab,No
-51,Mad Dummy,200,7,-40,0,0,1.47,Waterfall,Yes
-52,Mad Mew Mew,0,0,0,0,0,1.9,Snowdin,Yes
-53,Madjick,190,8,-1,150,120,2.2,Hotland,Yes
-54,Memory Head,0,0,0,0,0,2,Hotland,Yes
-55,Mettaton,9999,8,999,0,0,2.28,Hotland,Yes
-56,Mettaton (Hard Mode),9999,10,999,0,0,2.28,Hotland,Yes
-57,Mettaton EX,1600,8,1,0,0,2.75,Hotland,Yes
-58,Mettaton NEO,30000,10,-40000,0,0,2.75,Hotland,Yes
-59,Migosp,40,5,4,5,4,1.7,Ruins,Yes
-60,Migospel,45,7,3,5,4,1.7,Ruins,Yes
-61,Moldessa,52,7,-4,5,3,1.8,Ruins,No
-62,Moldsmal,50,4,0,3,3,1.65,Waterfall,No
-63,Moldsmal,50,7,0,3,3,1.65,Waterfall,No
-64,Moldsmal (Hard Mode),70,7,4,46,30,1.75,Waterfall,No
-65,Monster Kid,10,1,-900,0,0,1.32,Waterfall,No
-66,Muffet,1250,8,0,300,0,1.86,Hotland,Yes
-67,Muffet (Geno),0,0,0,0,0,1.86,Hotland,Yes
-68,Napstablook,88,5,4,-1,0,1.75,Waterfall,No
-69,Nicecream Guy,0,0,0,0,0,2.81,Waterfall,No
-70,Papyrus,680,8,2,0,0,2.23,Snowdin,No
-71,Papyrus (Geno),0,0,0,0,0,2.23,Snowdin,No
-72,Parsnik,72,7,-2,8,2,1.9,Ruins,Yes
-73,Photoshop Flowey,0,0,0,0,0,1.8,New Home,Yes
-74,Pyrope,110,8,1,80,40,2.59,Hotland,Yes
-75,Reaper Bird,0,0,0,0,0,1.8,Hotland,Yes
-76,RG 01,150,8,4,110,60,2.53,Hotland,Yes
-77,RG 02,150,8,4,110,60,2.53,Hotland,Yes
-78,RG 03,100,8,4,110,60,2.53,Hotland,Yes
-79,RG 04,100,8,4,110,60,2.53,Hotland,Yes
-80,Sans (Genocide),1,1,1,0,0,1.58,New Home,Yes
-81,Scarf Mouse,0,0,0,0,0,1.53,Snowdin,No
-82,Shyren,66,7,2,52,25,1.75,Waterfall,Yes
-83,Snowdrake,74,6,2,22,18,2.22,Snowdin,Yes
-84,Snowdrake's Mother,0,0,0,0,0,2.22,Snowdin,Yes
-85,Snowy,0,0,0,0,0,2.34,Snowdin,Yes
-86,So Sorry,1100,9,-6,1,300,1.9,Hotland,No
-87,Temmie,5,7,-20,40,50,1.39,Waterfall,No
-88,TestFroggit,23,4,1,2,2,1.1,Ruins,No
-89,Toriel,440,80,1,150,0,2.65,Ruins,Yes
-90,Toriel (Geno),0,0,0,0,0,2.65,Ruins,No
-91,Tsunderplane,80,8,6,95,45,1.75,Hotland,Yes
-92,Undyne,1500,7,0,0,0,2.5,Waterfall,Yes
-93,Undyne (Faux),1500,10,10,0,0,2.5,Waterfall,Yes
-94,Undyne the Undying,23000,12,5,0,0,2.5,Waterfall,Yes
-95,Vegetoid,72,5,0,6,1,1.05,Ruins,Yes
-96,Vulkin,20,8,-10,70,50,1.39,Hotland,Yes
-97,Whimsalot,20,7,0,3,4,1.8,Ruins,Yes
-98,Whimsalot (Hard Mode),95,8,-3,110,80,1.8,Ruins,Yes
-99,Whimsun,10,4,0,2,2,1.6,Ruins,Yes
-100,Woshua,70,7,1,52,25,1.33,Waterfall,Yes
+1,Aaron,98,7,2,52,25,2.28,Waterfall,Yes,16.1
+2,Agent,98,7,2,52,20,1.8,Hotland,Yes,
+3,Alphys,0,0,0,0,0,1.65,True Lab,Yes,
+4,Amalgamate 1,100,9,9999,0,0,2,True Lab,Yes,
+5,Amalgamate 2,100,9,999,0,0,2,True Lab,Yes,
+6,Amalgamate 3,400,0,0,0,0,1.8,True Lab,Yes,
+7,Amalgamate 4,100,9,999,0,0,2,True Lab,Yes,
+8,Annoying dog,0,0,0,0,0,1,Ruins,No,
+9,Asgore,3500,10,-30,0,0,2.86,New Home,Yes,
+10,Asriel,9999,8,9999,0,0,1.48,New Home,No,
+11,Asriel Dreemurr,9999,9999,9999,0,0,2.92,New Home,Yes,
+12,Astigmatism,120,8,-2,130,85,1.7,Ruins,Yes,
+13,Astigmatism,50,7,2,8,6,1.7,Ruins,Yes,
+14,Bomb,99,1,0,0,0,1.6,Hotland,Yes,
+15,BurgerPants,0,0,0,0,0,2.39,Hotland,No,
+16,Chara,9999,9999,9999,0,0,1.8,Surface,Yes,
+17,Chilldrake,74,6,2,22,18,2.22,Surface,No,
+18,Dogamy,108,6,4,30,25,2.28,Snowdin,Yes,
+19,Dogaressa,108,6,4,30,25,2.28,Snowdin,Yes,
+20,Doggo,70,6,1,30,20,1.7,Snowdin,Yes,
+21,Dogi,108,14,5,60,40,1.85,Snowdin,Yes,
+22,Doodlebog,100,8,999,0,0,2,Hotland,Yes,
+23,Dress Lion,0,0,0,0,0,2.36,Hotland,No,
+24,Dummy,15,0,-5,0,0,1.5,Ruins,No,
+25,Endogeny,0,0,0,0,0,1.7,True Lab,Yes,
+26,Final Froggit,100,8,0,120,80,2.2,Ruins,Yes,
+27,Final Froggit,32,7,2,4,80,1.75,Ruins,Yes,
+28,Flowey,0,0,0,0,0,1.1,N/A,Yes,
+29,Frisk,0,0,0,0,0,1.53,Surface,No,
+30,Froggit,20,4,1,10,20,1.05,Ruins,No,
+31,Froggit,30,4,4,3,20,1.05,Ruins,No,
+32,Gaster,666666,66666,66666,-666,-666,2.53,N/A,No,
+33,Glad Dummy,5,0,-5,200,100,1.47,Waterfall,No,
+34,Glyde,220,9,-20,100,140,2.2,Snowdin,No,
+35,Greater Dog,105,6,4,80,60,2.86,Snowdin,No,
+36,Grillby,0,0,0,0,0,2.64,Snowdin,No,
+37,Gyftrot,114,7,3,35,30,2.17,Snowdin,Yes,
+38,Ice,48,0,-100,25,40,1.86,Snowdin,Yes,
+39,Ice Cap,48,6,0,17,17,1.86,Snowdin,Yes,
+40,Jerry,80,1,8,1,55,1.5,Snowdin,No,
+41,Knight Knight,230,8,2,180,150,2.1,Hotland,Yes,
+42,Lemon Bread,100,8,9999,0,0,1.8,Hotland,Yes,
+43,Lesser Dog,60,6,0,18,15,1.92,Snowdin,Yes,
+44,Loox,50,5,4,7,5,1.6,Ruins,Yes,
+45,Lost Soul 1,999,7,999,0,0,1.75,True Lab,No,
+46,Lost Soul 2,999,7,999,0,0,1.75,True Lab,No,
+47,Lost Soul 3,999,7,999,0,0,1.75,True Lab,No,
+48,Lost Soul 4,999,7,999,0,0,1.75,True Lab,No,
+49,Lost Soul 5,999,7,999,0,0,1.75,True Lab,No,
+50,Lost Soul 6,999,7,999,0,0,1.75,True Lab,No,
+51,Mad Dummy,200,7,-40,0,10,1.47,Waterfall,Yes,
+52,Mad Mew Mew,0,0,0,0,0,1.9,Snowdin,Yes,
+53,Madjick,190,8,-1,150,120,2.2,Hotland,Yes,
+54,Memory Head,0,0,0,0,0,2,Hotland,Yes,
+55,Mettaton,9999,8,999,0,10,2.28,Hotland,Yes,
+56,Mettaton (Hard Mode),9999,10,999,0,20,2.28,Hotland,Yes,
+57,Mettaton EX,1600,8,1,500,30,2.75,Hotland,Yes,
+58,Mettaton NEO,30000,10,-40000,10000,40,2.75,Hotland,Yes,
+59,Migosp,40,5,4,5,4,1.7,Ruins,Yes,
+60,Migospel,45,7,3,5,4,1.7,Ruins,Yes,
+61,Moldessa,52,7,-4,5,3,1.8,Ruins,No,
+62,Moldsmal,50,4,0,3,3,1.65,Waterfall,No,
+63,Moldsmal,50,7,0,3,3,1.65,Waterfall,No,
+64,Moldsmal (Hard Mode),70,7,4,46,30,1.75,Waterfall,No,
+65,Monster Kid,10,1,-900,0,0,1.32,Waterfall,No,
+66,Muffet,1250,8,0,300,0,1.86,Hotland,Yes,
+67,Muffet (Genocide),0,0,0,0,0,1.86,Hotland,Yes,
+68,Napstablook,88,5,4,-1,-1,1.75,Waterfall,No,
+69,Nicecream Guy,0,0,0,0,0,2.81,Waterfall,No,
+70,Papyrus,680,8,2,0,10,2.23,Snowdin,No,
+71,Papyrus (Genocide),0,0,0,0,10,2.23,Snowdin,No,
+72,Parsnik,72,7,-2,8,2,1.9,Ruins,Yes,
+73,Photoshop Flowey,0,0,0,0,0,1.8,New Home,Yes,
+74,Pyrope,110,8,1,80,40,2.59,Hotland,Yes,
+75,Reaper Bird,0,0,0,0,0,1.8,Hotland,Yes,
+76,RG 01,150,8,4,110,60,2.53,Hotland,Yes,
+77,RG 02,150,8,4,110,60,2.53,Hotland,Yes,
+78,RG 03,100,8,4,110,60,2.53,Hotland,Yes,
+79,RG 04,100,8,4,110,60,2.53,Hotland,Yes,
+80,Sans (Genocide),1,1,1,0,0,1.58,New Home,Yes,
+81,Scarf Mouse,0,0,0,0,0,1.53,Snowdin,No,
+82,Shyren,66,7,2,52,25,1.75,Waterfall,Yes,
+83,Snowdrake,74,6,2,22,18,2.22,Snowdin,Yes,
+84,Snowdrake's Mother,0,0,0,0,0,2.22,Snowdin,Yes,
+85,Snowy,0,0,0,0,0,2.34,Snowdin,Yes,
+86,So Sorry,1100,9,-6,1,300,1.9,Hotland,No,
+87,Temmie,5,7,-20,40,50,1.39,Waterfall,No,
+88,TestFroggit,23,4,1,2,2,1.1,Ruins,No,
+89,Toriel,440,80,1,150,0,2.65,Ruins,Yes,
+90,Toriel (Genocide),0,0,0,150,0,2.65,Ruins,No,
+91,Tsunderplane,80,8,6,95,45,1.75,Hotland,Yes,
+92,Undyne,1500,7,0,0,0,2.5,Waterfall,Yes,
+93,Undyne (Faux),1500,10,10,500,20,2.5,Waterfall,Yes,
+94,Undyne the Undying,23000,12,5,1500,0,2.5,Waterfall,Yes,
+95,Vegetoid,72,5,0,6,1,1.05,Ruins,Yes,
+96,Vulkin,20,8,-10,70,50,1.39,Hotland,Yes,
+97,Whimsalot,20,7,0,3,4,1.8,Ruins,Yes,
+98,Whimsalot (Hard Mode),95,8,-3,110,80,1.8,Ruins,Yes,
+99,Whimsun,10,4,0,2,2,1.6,Ruins,Yes,
+100,Woshua,70,7,1,52,25,1.33,Waterfall,Yes,
