@@ -70,35 +70,24 @@ int indexByName(const vector <Character> &c, const string &name) {
             return i; //return the index
         }
     }
-    cout << "\nName not found in data"<< endl;
+    cout << "\nName not found in data\n"<< endl;
     return -1; //If name not found then return -1
 }
 
 //I had a look at : https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
 // and https://www.w3schools.com/cpp/cpp_maps.asp
 //To help understand the logic for adding a printing results
-map<string, int> countByLocation(const vector<Character> &c, const string &location) {
+map<string, int> countByLocation(const vector<Character> &c) {
     map<string, int> locationMap;
     for (const Character &chara : c) {
-        //If the location matches what we're looking for
-        if (chara.location == location) {
-            //add and increase the count for that location
             locationMap[chara.location]++;
-        }
     }
     return locationMap;
 }
 
 void displayLocationMap(map<string, int> locationMap) {
-    bool notEmpty = false;
-
     for (auto count : locationMap) {
-        cout << "The count for this location is: " << endl;
         cout << count.first << " " << count.second << endl;
-        notEmpty = true;
-    }
-    if (!notEmpty) {
-        cout << "Sorry, there was no data with that location" << endl;
     }
 }
 
@@ -114,7 +103,7 @@ void displayAggressiveSubset(const vector<Character> &c, const string &aggresive
         }
     }
     else{
-        cout << "Sorry, there was no data with that aggression type" << endl;
+        cout << "Sorry, there was no data with that aggression type\n" << endl;
     }
 }
 
@@ -195,7 +184,7 @@ void displaySubstringSubset(const vector<Character> &c) {
         }
     }
     else{
-        cout << "Sorry, there was no data with that text" << endl;
+        cout << "Sorry, there was no data with that text\n" << endl;
     }
 }
 
@@ -244,7 +233,7 @@ void parseLine(string line, Character &chr)
 }
 
 //Read csv file and populate vector of characters
-void load(string fname, vector<Character> &data)
+void load(const string& fname, vector<Character> &data)
 {
     //Open the filename assigned to fname
     ifstream fin(fname);
@@ -270,57 +259,90 @@ void load(string fname, vector<Character> &data)
 
 int main() {
     vector<Character> c;
-    string fname = "undertale.csv";
+    const string fname = "undertale.csv";
 
     //Stage 2
     //Load the data from csv into a vector of structs (Character)
     load(fname, c);
 
-    //Stage 3 part 1
-    //Display all characters using method
-    displayAllCharacters(c);
+    cout << "\nWelcome to the Undertale Info Storage!";
+    while (true) {
+        //Stage 4
+        cout <<"\n\nPlease input an option (1-9)\n";
+        cout <<"[1] Display all Characters\n[2] Display index of a Character (by name)\n[3] Display a count of characters from each location\n";
+        cout <<"[4] Display all Characters by Aggressiveness\n[5] Display Highest, Lowest and the Average Gold dropped by Characters (on kill)\n[6] Display Highest, Lowest and the Average XP dropped by Characters (on kill)\n";
+        cout <<"[7] Display a Subset of Characters by name (or partial name)\n[8] Display all Characters by Height (descending)\n[9] Exit the program\n";
+        int input;
+        cin >> input;
+        cin.ignore();
 
-    //Stage 3 part 2
-    string name;
-    cout << "\nEnter Character Name to search: (e.g Gaster, Papyrus, Temmie)\n";
-    //Read in input and assign it to name
-    getline(cin,name);
-    //Use the name to search
-    indexByName(c,name);
+        string search, name, aggressive;
+        int avgGold, avgXP;
+        switch(input) {
+            case 1:
+                //Stage 3 part 1
+                //Display all characters using method
+                displayAllCharacters(c);
+                break;
 
+            case 2:
+                //Stage 3 part 2
+                cout << "\nEnter Character Name to search: (e.g Gaster, Papyrus, Temmie)\n";
+                //Read in input and assign it to name
+                getline(cin,name);
+                //Use the name to search
+                indexByName(c,name);
+                break;
 
-    //Stage 3 part 3
-    string location;
-    cout << "\nEnter Character Location to search: (e.g Hotland, Ruins, Snowdin)\n";
-    getline(cin,location);
-    displayLocationMap(countByLocation(c, location));
+            case 3:
+                //Stage 3 part 3
+                displayLocationMap(countByLocation(c));
+                break;
 
-    //Stage 3 part 4
-    string aggressive;
-    cout << "\nEnter the Aggressive subset you are looking for (e.g Yes, No)\n";
-    cin >> aggressive;
-    //Since I was mixing cin and newline, the input stream was not taking in new values, so I looked up something similar to clearing the scanner in java
-    //https://www.geeksforgeeks.org/cin-ignore-function-in-cpp/?ref=ml_lbp
-    cin.ignore(); //Ignores certain amounts of characters to allow for the next input to work
-    displayAggressiveSubset(c, aggressive);
+            case 4:
+                //Stage 3 part 4
+                cout << "\nEnter the Aggressive subset you are looking for (e.g Yes, No)\n";
+                cin >> aggressive;
+                //Since I was mixing cin and newline, the input stream was not taking in new values, so I looked up something similar to clearing the scanner in java
+                //https://www.geeksforgeeks.org/cin-ignore-function-in-cpp/?ref=ml_lbp
+                cin.ignore(); //Ignores certain amounts of characters to allow for the next input to work
+                displayAggressiveSubset(c, aggressive);
+                break;
 
-    //Stage 3 part 5
-    cout << "\nThe Maximum, Minimum and Average of gold dropped by characters:\n";
-    int avgGold = highestLowestAverageGold(c);
-    cout << "\nThe average gold drop is: " << avgGold << endl;
+            case 5:
+                //Stage 3 part 5
+                cout << "\nThe Maximum, Minimum and Average of gold dropped by characters:\n";
+                avgGold = highestLowestAverageGold(c);
+                cout << "\nThe average gold drop is: " << avgGold << endl;
+                break;
 
-    cout << "\nThe Maximum, Minimum and Average of XP dropped by characters:\n";
-    int avgXP = highestLowestAverageXP(c);
-    cout << "The average XP drop is: " << avgXP << endl;
+            case 6:
+                //Other option for Stage 3 part 5
+                cout << "\nThe Maximum, Minimum and Average of XP dropped by characters:\n";
+                avgXP = highestLowestAverageXP(c);
+                cout << "The average XP drop is: " << avgXP << endl;
+                break;
 
-    //Stage 3 part 6
-    string search;
-    cout << "\nEnter a name or part of a name of a character" << endl;
-    getline(cin, search);
-    displaySubstringSubset(searchByNameSubstring(c,search));
+            case 7:
+                //Stage 3 part 6
+                cout << "\nEnter a name or part of a name of a character" << endl;
+                getline(cin, search);
+                displaySubstringSubset(searchByNameSubstring(c,search));
+                break;
 
-    //Stage 3 part 7
-    cout <<"\nDisplaying all characters descending by height:\n";
-    sortByHeight(c);
+            case 8:
+                //Stage 3 part 7
+                cout <<"\nDisplaying all characters descending by height:\n";
+                sortByHeight(c);
+                break;
+
+            case 9:
+                cout <<"Thank you, Goodbye!";
+                return 0;
+
+            default:
+                cout << "Please enter a valid option\n";
+        }
+    }
     return 0;
 }
